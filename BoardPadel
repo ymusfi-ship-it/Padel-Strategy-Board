@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Board Strategi Padel</title>
+<style>
+:root{--bg:#f3f5f7;--card:#ffffff;--ink:#1d2733;--muted:#66727f;--court:#2e7d4f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11181f;--card:#1a242e;--ink:#e6ebf0;--muted:#8d99a6;--court:#23653d}}
+:root[data-theme="dark"]{--bg:#11181f;--card:#1a242e;--ink:#e6ebf0;--muted:#8d99a6;--court:#23653d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;padding:max(12px,env(safe-area-inset-top)) 12px max(12px,env(safe-area-inset-bottom))}
+h1{font-size:18px;margin:4px 0 8px}
+.bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:8px 0}
+button,select,input{font:inherit;font-size:14px;padding:7px 10px;border-radius:8px;border:1px solid #0002;background:var(--card);color:var(--ink);cursor:pointer}
+button.on{background:var(--ink);color:var(--bg)}
+button:disabled{opacity:.4;cursor:default}
+.strip button{min-width:36px}
+.court-wrap{max-width:560px;margin:8px auto}
+#court{width:100%;display:block;touch-action:none;user-s
